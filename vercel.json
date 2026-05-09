@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm install --legacy-peer-deps && npx vite build",
   "outputDirectory": "dist",
-  "rootDirectory": ".",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
